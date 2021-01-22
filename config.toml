@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "scofirroto.github.io"
+title = "Scofirroto"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -92,17 +92,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "Chuck"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "chuckleong21@gmail.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "好奇心を失った瞬間、人間は死んだも同然です。"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = ""
     # 推特
-    twitter = "reuixiy"
+    twitter = "chucc900"
 
 # 相关文章
 [related]
@@ -185,39 +185,69 @@ uglyURLs = false
     #     pre = "internal"
     #     post = "home"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/R-oceanos/"
+        name = "R Oceanos"
+        weight = 1
+        pre = "internal"
+        post = "R"
+    [[menu.main]]
+        url = "/homosapiens/"
+        name = "人間"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = "nikki"
     [[menu.main]]
         url = "/categories/"
-        name = "分类"
+        name = "分類"
         weight = 3
         pre = "internal"
-        post = "th"
+        post = "grid"
     [[menu.main]]
         url = "/tags/"
-        name = "标签"
+        name = "標籤"
         weight = 4
         pre = "internal"
-        post = "tags"
+        post = "barcode"
     [[menu.main]]
         url = "/about/"
-        name = "关于"
+        name = "Me"
         weight = 5
         pre = "internal"
-        post = "user-circle"
-    [[menu.main]]
-        weight = 6
-        identifier = "theme-switcher"
-    [[menu.main]]
-        weight = 7
-        identifier = "lang-switcher"
+        post = "information"
+    # [[menu.main]]
+    #     weight = 6
+    #     identifier = "theme-switcher"
+    # [[menu.main]]
+    #     weight = 7
+    #     identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
     #     post = "search"
+    [[menu.socials]]
+        url = "https://www.twitter.com/chucc900"
+        name = " "
+        weight = 1
+        pre = "external"
+        post = "twitter"
+    [[menu.socials]]
+        url = "https://t.me/scofirroto"
+        name = "  "
+        weight = 2
+        pre = "external"
+        post = "telegram"
+    [[menu.links]]
+        url = "mailto:chuckleong21@gmail.com"
+        name = ""
+        weight = 1
+        pre = "external"
+        post = "envelope"
+    [[menu.links]]
+        url = "https://www.github.com/chuckleong21"
+        name = " "
+        weight = 2
+        pre = "external"
+        post = "github"
 
 
 
@@ -236,15 +266,15 @@ uglyURLs = false
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
-    displayHeaderInHome = true
+    displayHeaderInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 背景
-    headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
+    headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%);"
     # 说明：https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
 
     # 顶栏布局
-    headerLayout = "center"
+    headerLayout = "flex"
     # 说明：居中布局（center）或弹性布局（flex）
 
     # 在窄视图下隐藏菜单栏并显示一个按钮？
@@ -267,7 +297,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 1.35
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -283,7 +313,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = false
+    activeInSection = true
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -298,11 +328,15 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["好好記住昨天在昨天就已跑掉", "不相信命數和定數全沒需要",
+                  "轉身抱緊當下&emsp;眼淚抹掉煩擾", "風急雨大你都能撐起度過低潮",
+                  "漆黑裡就發亮燃燒", "變幻於當前&emsp;每個分秒&emsp;至最重要",
+                  "**All We Have Is Now**"
+    ]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -332,11 +366,11 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2021-01-13T06:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "chucc900"
     # 说明：用于 Twitter Cards
 
 
@@ -417,10 +451,10 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
-    chineseZodiac = true
+    chineseZodiac = false
 
     # 是否翻译年份（仅对年份标题有效）
     i18nYear = true
@@ -482,9 +516,9 @@ uglyURLs = false
     # 说明：light（浅色模式）或 dark（深色模式）
 
     # 是否隐藏模式切换开关
-    hideThemeToggle = false
+    hideThemeToggle = true
     # 是否在首页隐藏模式切换开关
-    hideThemeToggleInHome = false
+    hideThemeToggleInHome = true
     # 说明：如果开启了深色模式，即使你隐藏了开关，
     #      你的读者依然可能以深色模式阅读你的博
     #      客，如果该读者的系统设置为深色模式的
@@ -882,7 +916,7 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "'Rock Salt'"
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
@@ -903,7 +937,7 @@ uglyURLs = false
     fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap&family=Rock+Salt&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -1001,7 +1035,7 @@ uglyURLs = false
     enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1010,7 +1044,7 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true
@@ -1075,16 +1109,16 @@ uglyURLs = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
-    displayShareOnText = false
+    displayShareOnText = true
 
     shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnFacebook = false
+    shareOnLinkedIn = false
+    shareOnTelegram = false
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
     shareViaQRCode = true
 
@@ -1111,7 +1145,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"
@@ -1138,14 +1172,14 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
-    enableVerticalBarStructure = false
+    enableMinimalFooter = true
+    enableVerticalBarStructure = true
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
 
     # 是否开启关于页面的极简页脚
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1183,14 +1217,14 @@ uglyURLs = false
     displayCopyrightSymbol = true
 
     # 是否显示站点的创建年份
-    displaySiteCreatedYear = true
+    displaySiteCreatedYear = false
 
     # 年份与作者之间的图标，留空（""）则无
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = "home"
     # 图标颜色
-    iconColor = "#f06292"
+    iconColor = "#47a6db"
     # 是否开启图标的跳动效果
-    iconAnimation = true
+    iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
     displayPoweredBy = true
@@ -1211,7 +1245,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
@@ -1317,5 +1351,5 @@ uglyURLs = false
 
     # 视频地址
     fofVideoWebm = ""
-    fofVideoMp4 = ""
+    fofVideoMp4 = "/video/kaibutsu.mp4"
     # 说明：视频地址可留空（""）

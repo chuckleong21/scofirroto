@@ -1,0 +1,137 @@
+.spantxt {
+	position: relative;
+	display: inline;
+	&.vocab {
+		font-weight: bold;
+		color: steelblue;
+		background-color: lightblue;
+	}
+}
+.tooltip {
+	.tooltiptext {
+		visibility: hidden;
+		width: 150px;
+		background-color: transparent;
+		color: #06f;
+		text-align: center;
+		border-radius: 6px;
+		padding: 2px 0;
+		position: absolute;
+		z-index: 1;
+		top: -5px;
+		left: 4px;
+		&.str {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+	&:hover {
+		.tooltiptext {
+			visibility: visible;
+			&.badge {
+				background-color: transparent;
+			}
+		}
+	}
+}
+.compare {
+	vertical-align: super;
+	font-size: smaller;
+	color: gold;
+	position: relative;
+	display: inline;
+}
+reveal {
+	.after {
+		display: none;
+	}
+	&:hover {
+		.before {
+			display: none;
+		}
+		.after {
+			display: inline;
+		}
+	}
+}
+h1 {
+	text-align: center;
+}
+ans {
+	color: #fba92e;
+}
+grammar, ins {
+	color: #43bf09;
+}
+.grammar-hl {
+	font-weight: bolder;
+	color: black;
+	background-color: #82f166;
+}
+ex {
+	color: #ff4949;
+	font-weight: bold;
+}
+.boxmsg {
+	padding: 0.1em;
+}
+.boxflex {
+	display: flex;
+	flex-direction: row;
+}
+.tip {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border-left: 8px solid #5ca013;
+}
+.info {
+	color: #1a7599;
+	background-color: #e9f6fb;
+	border-left: 8px solid #87ceeb;
+}
+.glyphicon {
+	font-size: 150%;
+	margin-right: 8px;
+	align-self: center;
+}
+.fixHeader {
+	overflow-y: auto;
+	height: 100px;
+	thead {
+		th {
+			position: fixed;
+			top: 0;
+		}
+	}
+}
+td {
+	&.tsu {
+		background-color: #2ddce2;
+		width: 20px;
+		height: 20px;
+	}
+	&.b {
+		background-color: #f1cc2f;
+		width: 20px;
+		height: 20px;
+	}
+	&.p {
+		background-color: #60f758;
+		width: 20px;
+		height: 20px;
+	}
+	&.rising {
+		background: linear-gradient(to right bottom, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+	}
+}
+.redmark {
+	border: solid 1px red;
+	border-radius: 50%;
+	border-color: red;
+	line-height: 40px;
+	text-align: center;
+}
+.redline {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}

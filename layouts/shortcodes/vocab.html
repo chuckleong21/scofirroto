@@ -1,0 +1,15 @@
+{{- if .IsNamedParams -}}
+<div class="spantxt tooltip">
+  <u>{{- .Get "word" | safeHTML -}}</u>
+  <span class="tooltiptext">
+    <img src="https://img.shields.io/badge/{{- .Get "properties" -}}-{{- .Get "definiton" -}}-{{- .Get "color" -}}">
+  </span>
+</div>
+{{- else -}}
+<div class="spantxt tooltip">
+  <u>{{- .Get 0 | safeHTML -}}</u>
+  <span class="tooltiptext">
+    <img src="https://img.shields.io/badge/{{- .Get 2 -}}-{{- .Get 1 -}}-{{- .Get 3 -}}">
+  </span>
+</div>
+{{- end -}}

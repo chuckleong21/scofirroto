@@ -1,0 +1,32 @@
+.markdown-inner {
+  // Util class to remove extra margin in nested markdown content
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-even {
+  flex: 1 1;
+}
+
+.book-columns {
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  > div {
+    margin: 1rem 0;
+    min-width: 20rem / 2;
+    padding: 0 1rem;
+  }
+}
