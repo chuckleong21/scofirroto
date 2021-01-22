@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "scofirroto.github.io"
+baseURL = "https://chuckleong21.github.io/scofirroto/"
 title = "Scofirroto"
 languageCode = "zh-CN"
 hasCJKLanguage = true
