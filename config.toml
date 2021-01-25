@@ -1061,7 +1061,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = true
+    enablePostGitInfo = false
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1069,7 +1069,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/chuckleong21/scofirroto"
+    repoURL = ""
     # 编辑地址
     repoEditURL = ""
 
