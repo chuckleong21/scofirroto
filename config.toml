@@ -185,8 +185,8 @@ uglyURLs = false
     #     pre = "internal"
     #     post = "home"
     [[menu.main]]
-        url = "/R-oceanos/"
-        name = "R Oceanos"
+        url = "/R-oceanus/"
+        name = "R Oceanus"
         weight = 1
         pre = "internal"
         post = "R"
