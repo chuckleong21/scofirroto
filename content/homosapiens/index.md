@@ -4,6 +4,7 @@ draft = "false"
 description = "A tip of the life iceberg written in different languages."
 date = "2020-11-01T00:00:00+08:00"
 tags = ["日本語"]
+displayPostGitInfo = true
 +++
 
 
