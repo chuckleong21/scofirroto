@@ -7,10 +7,10 @@
                 <div class="content list-group">
                     {{ if .Site.Params.displayListTitle }}
                         {{ if (eq .Kind "section") }}
-                            <h1 class="list-title">{{ .Title | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") }}</h1>
+                            <h1 class="list-title">{{ .Title | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") | safeHTML }}</h1>
                         {{ end }}
                         {{ if (eq .Kind "term") }}
-                            <h1 class="list-title">{{ .Title | default .Data.Term | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") }}</h1>
+                            <h1 class="list-title">{{ .Title | default .Data.Term | default (delimit (last 1 (split (strings.TrimSuffix "/_index.md" .Path) "/")) " ") | safeHTML }}</h1>
                         {{ end }}
                     {{ end }}
 

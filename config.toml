@@ -186,34 +186,34 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/R-oceanus/"
-        name = "The R Oceanus"
+        name = "R Stuff"
         weight = 1
         pre = "internal"
-        post = "R"
+        post = ""
     [[menu.main]]
-        url = "/homosapiens/"
-        name = "人間"
+        url = "/translation/"
+        name = "文Aあ"
         weight = 2
         pre = "internal"
-        post = "nikki"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分類"
-        weight = 3
-        pre = "internal"
-        post = "grid"
-    [[menu.main]]
-        url = "/tags/"
-        name = "標籤"
-        weight = 4
-        pre = "internal"
-        post = "barcode"
+        post = ""
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "Categories"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = ""
+    # [[menu.main]]
+    #     url = "/tags/"
+    #     name = "Tags"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = ""
     [[menu.main]]
         url = "/about/"
         name = "Me"
         weight = 5
         pre = "internal"
-        post = "information"
+        post = ""
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -236,18 +236,36 @@ uglyURLs = false
         weight = 2
         pre = "external"
         post = "telegram"
-    [[menu.links]]
+    [[menu.socials]]
         url = "mailto:chuckleong21@gmail.com"
         name = ""
-        weight = 1
+        weight = 3
         pre = "external"
         post = "envelope"
-    [[menu.links]]
+    [[menu.socials]]
         url = "https://www.github.com/chuckleong21"
-        name = " "
+        name = "   "
         weight = 2
         pre = "external"
         post = "github"
+    [[menu.links]]
+        url = "/categories"
+        name = "Categories"
+        weight = 1
+        pre = "internal"
+        post = ""
+    [[menu.links]]
+        url = "/tags"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
+        post = ""
+    [[menu.links]]
+        url = "/homosapiens"
+        name = "人間"
+        weight = 3
+        pre = "external"
+        post = ""
 
 
 
