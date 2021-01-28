@@ -14,11 +14,7 @@ This is a personal blog mainly about **languages** from ``#rstats`` to natural l
 
 Section [R Oceanos](/r-oceanos) are things about _R programming languages_ written primarily in English since most work I did with R was in English.
 
-Section [人間](/homosapiens) are some excerpts about life or personal feelings written in whatever languages that I see fit. Basically _nothing important_ but want to make sure I leave some kind of record behind.
-
-# R News
-- On **21 Jan 2021**, the annual Rstudio conference [rstudio::global](https://global.rstudio.com/home) takes place online this year due to epidemic concern, make sure you check it out!
-
+Section [人間](/homosapiens) are some excerpts about life or personal feelings written in whatever languages that I see fit. Considered them some random tweet threads.
 
 {{< /tab >}}
 
@@ -27,6 +23,11 @@ Section [人間](/homosapiens) are some excerpts about life or personal feelings
 # 關於
 
 這是個關於語言翻譯的個人博客，歡迎你來。
+
+## 致謝
+- [@reuixiy](https://github.com/reuixiy)的Hugo主題[Meme](https://github.com/reuixiy/hugo-theme-meme/)
+- [免費取得的SVG圖標](https://www.flaticon.com)
+- 衷心為此博客提出建議或想法的你
 
 {{< /tab >}}
 
