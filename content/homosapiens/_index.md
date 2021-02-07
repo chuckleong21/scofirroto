@@ -8,6 +8,16 @@ tags = ["日本語"]
 
 {{< columns >}}
 
+## その十一
+<div style="margin:1em 0;line-height:2">
+  まあ、感情のことを考えすぎたらいつまでもと{{< vocab "しんどい" "tiresome" "ADV" "blue" >}}でした。相手はまだ気持ちが出ないでそのまま友達として出会い続きようですね。
+</div>
+
+{{< /columns >}}
+
+
+{{< columns >}}
+
 ## その十
 <div style="margin:1em 0;line-height:2">
   3歳ぐらいのお姉さんの息子と暮らしていたこの間は、育児なんでシミュレーションゲームみたいと感じがさせた。
