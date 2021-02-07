@@ -12,9 +12,8 @@ share = false
 
 This is a personal blog mainly about **languages** from ``#rstats`` to natural langauges including English, Chinese and Japanese. I would post the translated version of articles that pique my interest to one of these two languages above.
 
-Section [R Oceanos](/r-oceanos) are things about _R programming languages_ written primarily in English since most work I did with R was in English.
+[R Oceanos](/r-oceanos) are things about _R programming languages_ written primarily in English since most work I did with R was in English.
 
-Section [人間](/homosapiens) are some excerpts about life or personal feelings written in whatever languages that I see fit. Considered them some random tweet threads.
 
 {{< /tab >}}
 
